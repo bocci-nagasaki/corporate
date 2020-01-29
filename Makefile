@@ -1,0 +1,13 @@
+docker/ssh:
+	docker-compose run --rm app bash
+
+docker/setup:
+	docker-compose down
+	docker-compose -f "docker-compose.yml" up -d --build
+	docker-compose run cli sh -c "chmod 755 -R /tmp/scripts && /tmp/scripts/wp-install.sh"
+
+docker/up:
+	docker-compose up
+
+docker/down:
+	docker-compose down
