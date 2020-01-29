@@ -8,4 +8,3 @@ RUN \
     docker-php-ext-configure zip; \
     docker-php-ext-configure mysqli ; \
   }
-

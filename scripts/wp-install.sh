@@ -17,10 +17,10 @@ wp config create \
   --path=${WP_DIR}
 
 wp core install \
-    --url=localhost \
+    --url=localhost:8080 \
     --title="bocci corporate site" \
-    --admin_user=hogehoge \
-    --admin_password=passpasspass \
+    --admin_user=admin \
+    --admin_password=admin \
     --admin_email=bocci@example.com \
     --path=${WP_DIR}
 
