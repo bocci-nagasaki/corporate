@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ex;
+set -ex
 WP_DIR=/var/www/html
 cd ${WP_DIR}
 export $(cat /tmp/scripts/.env | grep -v ^# | xargs)
