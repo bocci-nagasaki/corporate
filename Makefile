@@ -11,3 +11,7 @@ docker/up:
 
 docker/down:
 	docker-compose down
+
+docker/clean:
+	docker-compose down -v
+	docker-compose rm -v
