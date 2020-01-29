@@ -3,7 +3,9 @@
 ### setup
 - Docker-for-Mac
 
+
 ```bash
+git clone git@github.com:bocci-nagasaki/corporate.git
 make docker/setup
 ```
 
