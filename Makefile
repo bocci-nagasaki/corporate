@@ -2,6 +2,7 @@ docker/ssh:
 	docker-compose run --rm app bash
 
 docker/setup:
+	make docker/clean
 	chmod -R 755 scripts
 	docker-compose down
 	docker-compose -f "docker-compose.yml" up -d --build
