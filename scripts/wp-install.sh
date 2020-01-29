@@ -1,19 +1,20 @@
 #!/bin/bash
 
 set -ex;
-WPINSTALLDIR=/var/www/html
+WP_DIR=/var/www/html
+cd ${WP_DIR}
+export $(cat /tmp/scripts/.env | grep -v ^# | xargs)
 
-wp core download \
-    --locale=ja \
-    --version=5.3.2 \
-    --path=${WPINSTALLDIR}
+wp core download --locale=ja --path=${WP_DIR}
 
 wp config create \
-    --dbname=wordpress \
-    --dbuser=scott \
-    --dbpass=tiger \
-    --dbhost=db:3306 \
-    --force --path=${WPINSTALLDIR}
+  --dbname=$DBNAME \
+  --dbuser=$DBUSER \
+  --dbpass=$DBPASS \
+  --dbhost=$DBHOST \
+  --dbprefix=$DBPREFIX \
+  --force \
+  --path=${WP_DIR}
 
 wp core install \
     --url=localhost \
@@ -21,13 +22,6 @@ wp core install \
     --admin_user=hogehoge \
     --admin_password=passpasspass \
     --admin_email=bocci@example.com \
-    --path=${WPINSTALLDIR} 
+    --path=${WP_DIR}
 
-wp plugin install \
-    classic-editor \
-    advanced-custom-fields \
-    custom-post-type-ui \
-    custom-post-type-permalinks \
-    tinymce-advanced \
-    --activate \
-    --path=${WPINSTALLDIR}
+bash /tmp/scripts/wp-plugin-install.sh

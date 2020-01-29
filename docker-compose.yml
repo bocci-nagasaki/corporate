@@ -11,8 +11,8 @@ services:
       - wpnet
     environment:
       - MYSQL_DATABASE=wordpress
-      - MYSQL_USER=scott
-      - MYSQL_PASSWORD=tiger
+      - MYSQL_USER=wp
+      - MYSQL_PASSWORD=wp
       - MYSQL_ROOT_PASSWORD=root
 
   app:
