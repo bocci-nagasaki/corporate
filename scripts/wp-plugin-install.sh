@@ -1,15 +1,12 @@
 #!/bin/bash
 
-set -ex
+set -e
 WP_DIR=/var/www/html
 cd ${WP_DIR}
 
-array=(`cat scripts/plugins.txt`)
-#wp plugin install \
-#    classic-editor \
-#    advanced-custom-fields \
-#    custom-post-type-ui \
-#    custom-post-type-permalinks \
-#    tinymce-advanced \
-#    --activate \
-#    --path=${WP_DIR}
+array=(`cat /tmp/scripts/plugins.txt`)
+echo ${array[@]}
+for v in ${array[@]}; do
+  wp plugin install $v --activate --path=${WP_DIR} || true
+done
+

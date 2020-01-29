@@ -20,5 +20,5 @@ docker/clean:
 plugin/export:
 	docker-compose run cli sh -c "cd /tmp/scripts/ && ./plugin-list.sh"
 
-plugin/install:
+plugin/import:
 	docker-compose run cli sh -c " cd /tmp/scripts/ && ./wp-plugin-install.sh"
