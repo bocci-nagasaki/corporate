@@ -9,4 +9,3 @@ echo ${array[@]}
 for v in ${array[@]}; do
   wp plugin install $v --activate --path=${WP_DIR} || true
 done
-
