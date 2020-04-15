@@ -5,21 +5,23 @@ Template Name: custom-top-template
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
-get_header(); ?>
-
-<?php if (astra_page_layout() == 'left-sidebar') : ?>
-    <?php get_sidebar(); ?>
-<?php endif ?>
+get_header('top');
+if (astra_page_layout() == 'left-sidebar') {
+    get_sidebar();
+}
+?>
 
 <div id="primary" <?php astra_primary_class(); ?>>
-    <?php astra_primary_content_top(); ?>
-    <?php astra_content_loop(); ?>
-    <?php the_content() ?>
-    <?php astra_primary_content_bottom(); ?>
-</div><!-- #primary -->
+    <?php
+    astra_primary_content_top();
+    astra_content_loop();
+    the_content();
+    astra_primary_content_bottom();
+    ?>
+</div>
 
-<?php if (astra_page_layout() == 'right-sidebar') : ?>
-    <?php get_sidebar(); ?>
-<?php endif ?>
-
-<?php get_footer(); ?>
+<?php if (astra_page_layout() == 'right-sidebar') {
+    get_sidebar();
+}
+get_footer();
+?>
