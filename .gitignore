@@ -11,6 +11,6 @@
 !/html/wp-content/uploads/static
 !/html/wp-content/themes
 /html/wp-content/themes/*
-!/html/wp-content/themes/*-child
+!/html/wp-content/themes/*child
 mysql/*
 .idea/*
