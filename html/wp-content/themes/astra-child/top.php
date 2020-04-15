@@ -6,10 +6,12 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
 get_header('top');
-if (astra_page_layout() == 'left-sidebar') {
-    get_sidebar();
-}
 ?>
+
+<video autoplay loop poster="polina.jpg">
+<!--  <source src="polina.webm" type="video/webm">-->
+  <source src="/wp-content/uploads/2020/01/kv.mp4" type="video/mp4">
+</video>
 
 <div id="primary" <?php astra_primary_class(); ?>>
     <?php

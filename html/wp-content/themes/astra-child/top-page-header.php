@@ -12,7 +12,7 @@
             <div class="ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
               <div class="ast-site-title-wrap">
                 <h1 class="site-title" itemprop="name">
-                  <a href="http://localhost:8080/" rel="home" itemprop="url">bocci corporate site</a>
+                    南串山のデジマ
                 </h1>
               </div>
             </div>
