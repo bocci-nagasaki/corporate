@@ -1,4 +1,4 @@
-<h2 class="mb-4">デジマとは？</h2>
+<h2 class="mb-4"><span class="marker-yellow">デジマとは？</span></h2>
 <div class="row">
     <div class="col-sm">
         <div class="card">

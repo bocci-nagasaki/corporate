@@ -1,4 +1,4 @@
-<h2 class="mb-4">おいしいヒミツ</h2>
+<h2 class="mb-4"><span class="marker-yellow">おいしいヒミツ</span></h2>
 <div class="row">
 
     <div class="col-sm">
