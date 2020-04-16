@@ -46,7 +46,6 @@ if (!defined('ABSPATH')) {
           </div>
         </li>
         <li class="media my-4">
-          <img src="/wp-content/uploads/2020/04/bad.png" class="mr-3" alt="...">
           <div class="media-body">
             <h5 class="mt-0 mb-1">Bさん</h5>
             つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、
@@ -54,6 +53,7 @@ if (!defined('ABSPATH')) {
             つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、
             そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。（Wikipediaより）
           </div>
+          <img src="/wp-content/uploads/2020/04/bad.png" class="mr-3" alt="...">
         </li>
         <li class="media">
           <img src="/wp-content/uploads/2020/04/bad.png" class="mr-3" alt="...">
