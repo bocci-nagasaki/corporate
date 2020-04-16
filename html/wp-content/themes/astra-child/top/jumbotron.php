@@ -1,4 +1,4 @@
-<div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel" style="display: none;">
+<div id="carouselIndicators" class="carousel slide carousel-fade sp" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselIndicators" data-slide-to="1"></li>
@@ -17,4 +17,4 @@
   </div>
 </div>
 
-<video id="video" autoplay loop muted data-src="/wp-content/uploads/static/kv.mp4" style="width: 100%; display: none;"></video>
+<video id="video" class="pc" autoplay loop muted data-src="/wp-content/uploads/static/kv.mp4" style="width: 100%;"></video>
