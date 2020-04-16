@@ -22,13 +22,18 @@ if (!defined('ABSPATH')) {
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  >
 
     <?php wp_head(); ?>
     <?php astra_head_bottom(); ?>
 </head>
 
-<body <?php astra_schema_body(); ?> <?php body_class(); ?>>
+<body <?php astra_schema_body(); ?> <?php body_class(); ?> style="position: relative;" data-spy="scroll" data-target="#navbar">
 
 <?php astra_body_top(); ?>
 <?php wp_body_open(); ?>
@@ -46,15 +51,8 @@ if (!defined('ABSPATH')) {
   <a class="skip-link screen-reader-text" href="#content">
       <?php echo esc_html(astra_default_strings('string-header-skip-link', false)); ?>
   </a>
-
     <?php astra_header_before(); ?>
     <?php include(ABSPATH . 'wp-content/themes/astra-child/top-page-header.php'); ?>
     <?php astra_header_after(); ?>
-
     <?php astra_content_before(); ?>
-
-  <div id="content" class="site-content">
-
-    <div class="ast-container">
-
-        <?php astra_content_top(); ?>
+    <?php astra_content_top(); ?>
