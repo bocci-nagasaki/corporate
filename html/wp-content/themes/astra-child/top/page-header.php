@@ -1,4 +1,4 @@
-<nav id="navbar" class="navbar navbar-light bg-light sticky-top">
+<nav id="navbar" class="navbar navbar-light bg-light sticky-top justify-content-center">
   <ul class="nav nav-pills">
     <li class="nav-item pc">
       <a class="nav-link" href="#what-is-dejima">デジマとは？</a>

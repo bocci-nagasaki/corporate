@@ -28,7 +28,7 @@ if (!defined('ABSPATH')) {
     <?php wp_head(); ?>
 </head>
 
-<body style="position: relative;" data-spy="scroll" data-target="#navbar">
+<body class="position-relative" data-spy="scroll" data-target="#navbar">
 <?php wp_body_open(); ?>
 <?php include(ABSPATH . 'wp-content/themes/astra-child/top/body.php'); ?>
 <script
