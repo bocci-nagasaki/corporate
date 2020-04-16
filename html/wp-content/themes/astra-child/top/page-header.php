@@ -1,7 +1,4 @@
-<nav id="navbar" class="navbar navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#">
-    <img src="/wp-content/uploads/static/potato-logo.png" alt="" id="logo" height="40">
-  </a>
+<nav id="navbar" class="navbar navbar-light bg-light sticky-top">
   <ul class="nav nav-pills">
     <li class="nav-item pc">
       <a class="nav-link" href="#what-is-dejima">デジマとは？</a>
@@ -9,6 +6,9 @@
     <li class="nav-item pc">
       <a class="nav-link" href="#secret-of-taste">おいしいヒミツ</a>
     </li>
+    <a class="navbar-brand" href="#">
+      <img src="/wp-content/uploads/static/potato-logo.png" alt="" id="logo" height="40">
+    </a>
     <li class="nav-item pc">
       <a class="nav-link" href="#producer">生産者</a>
     </li>

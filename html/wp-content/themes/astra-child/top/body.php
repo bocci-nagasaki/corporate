@@ -1,4 +1,6 @@
 <?php include(ABSPATH . 'wp-content/themes/astra-child/top/jumbotron.php'); ?>
+<?php include(ABSPATH . 'wp-content/themes/astra-child/top/page-header.php'); ?>
+
 <div class="container">
 
   <div>

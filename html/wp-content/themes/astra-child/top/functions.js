@@ -11,9 +11,7 @@ const device = (function () {
 
 const sps = document.querySelectorAll('.sp');
 const pcs = document.querySelectorAll('.pc');
-const c = document.getElementById('carouselIndicators');
 const v = document.getElementById('video');
-const h = document.getElementById('navbar').clientHeight;
 
 if (device !== 'sp') {
   const src = v.getAttribute('data-src');
@@ -24,14 +22,11 @@ if (device !== 'sp') {
     pc.style.display = 'block';
   });
   v.setAttribute('src', src);
-  v.style.marginTop = `${h}px`;
 } else {
-  Array.prototype.forEach.call(sps, function (sp) {
-    sp.style.display = 'block';
-  });
   Array.prototype.forEach.call(pcs, function (pc) {
     pc.parentNode.removeChild(pc);
   });
-  c.style.display = 'block';
-  c.style.marginTop = `${h}px`;
+  Array.prototype.forEach.call(sps, function (sp) {
+    sp.style.display = 'block';
+  });
 }
