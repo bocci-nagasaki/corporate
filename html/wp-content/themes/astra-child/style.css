@@ -115,3 +115,11 @@ html:before {
         opacity: 0;
     }
 }
+
+#loader-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    bottom: 0;
+}

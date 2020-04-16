@@ -34,4 +34,8 @@ if (device !== 'sp') {
 document.addEventListener("DOMContentLoaded", function () {
   const loader = document.getElementById('loader');
   loader.classList.add('fadeout');
+  setTimeout(function () {
+    const l = document.getElementById('loader');
+    l.parentNode.removeChild(l);
+  }, 2000);
 });
