@@ -1,12 +1,3 @@
-<?php
-/*
-Template Name: custom-top-template
-*/
-if (!defined('ABSPATH')) {
-    exit; // Exit if accessed directly.
-}
-?>
-
 <?php get_header('top'); ?>
 <video autoplay loop muted src="/wp-content/uploads/2020/01/kv.mp4" style="width: 100%;"></video>
 <div class="container">
