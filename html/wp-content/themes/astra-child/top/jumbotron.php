@@ -17,4 +17,7 @@
   </div>
 </div>
 
-<video id="video" class="pc" autoplay loop muted data-src="/wp-content/uploads/static/kv.mp4" style="width: 100%;"></video>
+<div id="video-container" class="position-relative bg-dark">
+  <video id="video" class="pc" autoplay loop muted data-src="/wp-content/uploads/static/kv.mp4" style="width: 100%;"></video>
+  <p id="video-text" class="text-white p-4 m-0 position-absolute">産地を繋いだ歴史がある<br>産地を繋ぐ未来がある</p>
+</div>

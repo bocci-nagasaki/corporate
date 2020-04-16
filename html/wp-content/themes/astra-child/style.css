@@ -36,3 +36,24 @@
 .marker-yellow {
     background: linear-gradient(transparent 50%, #ffff00 0%);
 }
+
+#video-container {
+    position: relative;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin: 0;
+    width: 100%;
+}
+
+#video-text {
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    border: 2px solid;
+    font-size: 2.2rem;
+}
+
+#video {
+    opacity: 0.6;
+}
