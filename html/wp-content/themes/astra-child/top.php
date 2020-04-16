@@ -7,45 +7,71 @@ if (!defined('ABSPATH')) {
 }
 ?>
 
+<?php get_header('top'); ?>
+<video autoplay loop muted src="/wp-content/uploads/2020/01/kv.mp4" style="width: 100%;"></video>
 <div class="container">
-    <?php get_header('top'); ?>
-  <video autoplay loop muted src="/wp-content/uploads/2020/01/kv.mp4"></video>
-  <section id="product-process" class="text-center" style="margin-bottom: 1000px;">
-    <h2>生産工程</h2>
-    <p>
-      親譲りの無鉄砲で小供の時から損ばかりしている。<br>
-      小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。<br>
-      なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。<br>
-      新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
-    </p>
-  </section>
 
-  <section id="producer" class="text-center" style="margin-bottom: 1000px;">
-    <h2>生産者</h2>
-    <div class="card" style="width: 18rem;">
-      <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-           preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Image cap">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#868e96"></rect>
-        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-      </svg>
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-          content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+  <div class="mb-3 pt-5" id="product-process"></div>
+  <h2 class="mb-4">生産工程</h2>
+  <div class="row" style="margin-bottom: 1000px;">
+    <div class="col-sm">
+      <div class="card">
+        <img src="/wp-content/uploads/static/logo.png" class="card-img-top" alt="...">
       </div>
     </div>
-  </section>
+    <div class="col-sm">
+      <p>
+        親譲りの無鉄砲で小供の時から損ばかりしている。<br>
+        小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。<br>
+        なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。<br>
+        新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+      </p>
+    </div>
+  </div>
 
-  <section id="contact-us" class="text-center" style="margin-bottom: 1000px;">
-    <h2>お問い合わせ</h2>
-    <ul>
-      <li>おなまえ</li>
-      <li>れんらくさき</li>
-      <li>ないよう</li>
-    </ul>
-  </section>
+  <div class="mb-3 pt-5" id="producer"></div>
+  <h2 class="mb-4">生産者</h2>
+  <div class="row" style="margin-bottom: 1000px;">
+    <div class="col-sm">
+      <ul class="list-unstyled">
+        <li class="media">
+          <img src="/wp-content/uploads/2020/04/bad.png" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Aさん</h5>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cill
+          </div>
+        </li>
+        <li class="media my-4">
+          <img src="/wp-content/uploads/2020/04/bad.png" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Bさん</h5>
+            つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。（Wikipediaより）つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。（Wikipediaより）
+          </div>
+        </li>
+        <li class="media">
+          <img src="/wp-content/uploads/2020/04/bad.png" class="mr-3" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Cさん</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
+            vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
+            lacinia congue felis in faucibus.
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mb-3 pt-5" id="contact-us"></div>
+  <h2 class="mb-4">お問い合わせ</h2>
+  <div class="row" style="margin-bottom: 1000px;">
+    <div class="col-sm">
+      <ul>
+        <li>おなまえ</li>
+        <li>れんらくさき</li>
+        <li>ないよう</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 
