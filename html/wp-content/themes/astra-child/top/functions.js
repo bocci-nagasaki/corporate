@@ -30,3 +30,8 @@ if (device !== 'sp') {
     sp.style.display = 'block';
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  const loader = document.getElementById('loader');
+  loader.classList.add('fadeout');
+});
