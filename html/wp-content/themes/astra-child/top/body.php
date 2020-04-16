@@ -2,8 +2,8 @@
 <?php include(ABSPATH . 'wp-content/themes/astra-child/top/page-header.php'); ?>
 
 <div class="container">
-  <div class="card cover mt-5 mb-5 p-4 shadow-lg">
-    <div class="card-body">
+<!--  <div class="card cover mt-5 mb-5 p-4 shadow-lg">-->
+<!--    <div class="card-body">-->
       <div class="mb-3 pt-5" id="what-is-dejima"></div>
         <?php include(ABSPATH . 'wp-content/themes/astra-child/top/what-is-dejima.php'); ?>
 
@@ -26,5 +26,5 @@
       </div>
 
     </div>
-  </div>
-</div>
+<!--  </div>-->
+<!--</div>-->
