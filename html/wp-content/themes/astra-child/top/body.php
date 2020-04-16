@@ -1,6 +1,5 @@
-<video autoplay loop muted src="/wp-content/uploads/2020/01/kv.mp4" style="width: 100%;"></video>
+<?php include(ABSPATH . 'wp-content/themes/astra-child/top/jumbotron.php'); ?>
 <div class="container">
-
     <div class="mb-3 pt-5" id="product-process"></div>
     <h2 class="mb-4">生産工程</h2>
     <div class="row" style="margin-bottom: 1000px;">
