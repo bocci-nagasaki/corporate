@@ -2,7 +2,7 @@
 <div class="container">
     <div class="mb-3 pt-5" id="product-process"></div>
     <h2 class="mb-4">生産工程</h2>
-    <div class="row" style="margin-bottom: 1000px;">
+    <div class="row" style="margin-bottom: 400px;">
         <div class="col-sm">
             <div class="card">
                 <img src="/wp-content/uploads/static/logo.png" class="card-img-top" alt="...">
@@ -20,7 +20,7 @@
 
     <div class="mb-3 pt-5" id="producer"></div>
     <h2 class="mb-4">生産者</h2>
-    <div class="row" style="margin-bottom: 1000px;">
+    <div class="row" style="margin-bottom: 400px;">
         <div class="col-sm">
             <ul class="list-unstyled">
                 <li class="media">
@@ -61,7 +61,7 @@
 
     <div class="mb-3 pt-5" id="contact-us"></div>
     <h2 class="mb-4">お問い合わせ</h2>
-    <div class="row" style="margin-bottom: 1000px;">
+    <div class="row" style="margin-bottom: 400px;">
         <div class="col-sm">
             <ul>
                 <li>おなまえ</li>

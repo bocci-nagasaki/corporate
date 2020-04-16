@@ -9,4 +9,18 @@ const device = (function () {
   }
 })();
 
-console.log(device);
+const c = document.getElementById('carouselIndicators');
+const v = document.getElementById('video');
+const h = document.getElementById('navbar').clientHeight;
+
+if (device !== 'sp') {
+  const src = v.getAttribute('data-src');
+  c.parentNode.removeChild(c);
+  v.style.display = 'block';
+  v.setAttribute('src', src);
+  v.style.marginTop = `${h}px`;
+} else {
+  v.parentNode.removeChild(v);
+  c.style.display = 'block';
+  c.style.marginTop = `${h}px`;
+}
