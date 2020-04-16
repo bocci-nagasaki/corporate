@@ -2,7 +2,7 @@
 <div class="row">
     <div class="col-sm">
         <div class="card">
-            <img src="/wp-content/uploads/static/logo.png" class="card-img-top" alt="...">
+            <img src="/wp-content/uploads/static/what-is-dejima.png" class="card-img-top" alt="...">
         </div>
     </div>
     <div class="col-sm">

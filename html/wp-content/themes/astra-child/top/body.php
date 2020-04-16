@@ -1,7 +1,7 @@
 <?php include(ABSPATH . 'wp-content/themes/astra-child/top/jumbotron.php'); ?>
 <?php include(ABSPATH . 'wp-content/themes/astra-child/top/page-header.php'); ?>
 
-<div class="container-fluid">
+<div class="container">
   <div class="card cover mt-5 mb-5 p-4 shadow-lg">
     <div class="card-body">
       <div class="mb-3 pt-5" id="what-is-dejima"></div>

@@ -3,7 +3,7 @@
     <div class="col-sm">
         <ul class="list-unstyled">
             <li class="media">
-                <img src="/wp-content/uploads/static/bad.png" class="mr-3" alt="...">
+                <img src="/wp-content/uploads/static/producer.png" width="200" class="mr-3" alt="...">
                 <div class="media-body">
                     <h5 class="mt-0 mb-1">Aさん</h5>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -21,10 +21,10 @@
                     つれづれなるまゝに、日暮らし、硯にむかひて、心にうつりゆくよしなし事を、
                     そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。（Wikipediaより）
                 </div>
-                <img src="/wp-content/uploads/static/bad.png" class="mr-3" alt="...">
+                <img src="/wp-content/uploads/static/producer.png" width="200" class="mr-3" alt="...">
             </li>
             <li class="media">
-                <img src="/wp-content/uploads/static/bad.png" class="mr-3" alt="...">
+                <img src="/wp-content/uploads/static/producer.png" width="200" class="mr-3" alt="...">
                 <div class="media-body">
                     <h5 class="mt-0 mb-1">Cさん</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
