@@ -62,28 +62,28 @@ body {
 }
 
 html {
-    background: url("/wp-content/uploads/static/bg03.jpg");
+    background: url("/wp-content/uploads/static/top/background.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
     position: relative;
 }
 
-html:before {
-    content: '';
-    background: inherit;
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-}
+/*html:before {*/
+/*    content: '';*/
+/*    background: inherit;*/
+/*    -webkit-filter: blur(5px);*/
+/*    -moz-filter: blur(5px);*/
+/*    -o-filter: blur(5px);*/
+/*    -ms-filter: blur(5px);*/
+/*    filter: blur(5px);*/
+/*    position: absolute;*/
+/*    top: -5px;*/
+/*    left: -5px;*/
+/*    right: -5px;*/
+/*    bottom: -5px;*/
+/*    z-index: -1;*/
+/*}*/
 
 .cover {
     background-color: #fff;
