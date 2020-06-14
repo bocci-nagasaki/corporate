@@ -3,35 +3,19 @@
 
   <div class="col-sm">
     <div class="card h-100 border-0 mb-2" style="background-color: transparent;">
-      <img src="/wp-content/uploads/static/secret-of-taste01.png" class="card-img-top rounded-lg shadow" alt="...">
-      <div class="card-body">
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
-      </div>
+      <img src="/wp-content/uploads/static/top/secret-of-taste-01.png" class="card-img-top" alt="サラブレット品種の馬鈴薯">
     </div>
   </div>
 
   <div class="col-sm">
     <div class="card h-100 border-0 mb-2" style="background-color: transparent;">
-      <img src="/wp-content/uploads/static/secret-of-taste02.png" class="card-img-top rounded-lg shadow" alt="...">
-      <div class="card-body">
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
-      </div>
+      <img src="/wp-content/uploads/static/top/secret-of-taste-02.png" class="card-img-top" alt="70年続く馬鈴薯栽培の歴史">
     </div>
   </div>
 
   <div class="col-sm">
     <div class="card h-100 border-0 mb-2" style="background-color: transparent;">
-      <img src="/wp-content/uploads/static/secret-of-taste03.png" class="card-img-top rounded-lg shadow" alt="...">
-      <div class="card-body">
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
-      </div>
+      <img src="/wp-content/uploads/static/top/secret-of-taste-03.png" class="card-img-top" alt="厳選された特別な畑での栽培">
     </div>
   </div>
 </div>
