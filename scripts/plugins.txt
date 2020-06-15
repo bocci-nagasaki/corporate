@@ -1,0 +1,3 @@
+akismet
+hello
+classic-editor

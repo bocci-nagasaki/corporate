@@ -1,0 +1,109 @@
+/*
+ Theme Name:   Astra Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Astra Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  astra-child
+*/
+.sp {
+    display: none;
+}
+
+.pc {
+    display: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: transparent;
+    border-bottom: 2px darkorange solid;
+    border-radius: 0;
+}
+
+.marker-yellow {
+    background: linear-gradient(transparent 50%, #ffff00 0%);
+}
+
+#video-container {
+    position: relative;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin: 0;
+    width: 100%;
+    overflow-y: hidden;
+}
+
+#video-text {
+    position: absolute;
+    right: 45px;
+    top: 30px;
+    border: 2px solid;
+    font-size: 2.2rem;
+}
+
+#video {
+    opacity: 0.6;
+    width: 100%;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+html {
+    background: url("/wp-content/uploads/static/top/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.cover {
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    text-align: center;
+    padding-top: 40%;
+}
+
+.fadeout {
+    animation: fadeOut 1.4s;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#loader-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    bottom: 0;
+}
