@@ -6,13 +6,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/wp-content/uploads/static/bg01.jpg" class="d-block w-100" alt="...">
+      <img src="/wp-content/uploads/static/top/slider_01.png" class="d-block w-100" alt="採れたてのじゃがいも「デジマ」の画像">
     </div>
     <div class="carousel-item">
-      <img src="/wp-content/uploads/static/bg02.jpg" class="d-block w-100" alt="...">
+      <img src="/wp-content/uploads/static/top/slider_02.png" class="d-block w-100" alt="夕日を受けて輝く棚田の画像">
     </div>
     <div class="carousel-item">
-      <img src="/wp-content/uploads/static/bg03.jpg" class="d-block w-100" alt="...">
+      <img src="/wp-content/uploads/static/top/slider_03.png" class="d-block w-100" alt="収穫後の畑と軽トラックの画像">
     </div>
   </div>
 </div>
